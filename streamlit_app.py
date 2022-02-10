@@ -7,7 +7,7 @@ df_kids = pd.read_csv ('proteinvalues-kids.csv')
 df_protein = df_protein.rename(columns={' Portion size': 'Portion', 'Grams protein': 'Protein (grams)'})
 
 
-st.title("Protein calculator for kids - test")
+st.title("Protein calculator for kids - test2")
 st.write("""
 My kids are picky eaters and I am always worried if they are getting enough calories or protein! 
 Try this quick calculator to see how much protein your kid gets in a day
