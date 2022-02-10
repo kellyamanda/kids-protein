@@ -16,7 +16,7 @@ a,b = st.columns(2)
 with a:
     age = st.selectbox("Child's age",["1 to 3 years","4 to 8 years","9 to 13 years","14 to 18 years"])
 with b:
-    sex = st.selectbox("Child's sex",["Boy","Girl"])
+    sex = st.selectbox("Child's sex",["Girl","Boy"])
 
 def protein(age,sex):
     if age == "1 to 3 years":
